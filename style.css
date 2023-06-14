@@ -1,0 +1,83 @@
+
+
+
+/* style the main body */
+body { 
+    background-color: rgb(200, 162, 227);
+    color: white;
+    font-family: 'roboto';
+    text-align: center;
+    /* width: 960px;
+    margin: 0 auto; */
+    padding: 0;
+}
+
+/* Style the heading */
+h1 {
+    font-family: 'Roboto';
+    font-size: 50px;
+    margin-bottom: 200 px;
+}
+
+
+.information-column {
+    text-align: center;
+    padding: 20px;
+
+
+}
+
+.section {
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    align-items: center;
+}
+/* creating 2 columns, you can create as much columns as you like */
+.grid-container {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    align-items: center;
+}
+
+/* styling the links */
+a {
+    margin-top: 100px;
+    margin-right: 10px;
+}
+
+.circular {
+    border-radius: 50%;
+}
+
+.square {
+    margin-top: 100px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    color: blue;
+}
+
+.highlight {
+    color: rgb(157, 25, 227); 
+}
+
+.button {
+    padding: 3px; 
+    border-style: solid;
+    border: 10px;
+    border-color: black;
+    border-radius: 10%;
+}
+
+.button:hover {
+    color: purple;
+    background-color: rgb(255, 255, 255);
+}
+
+.picture:hover {
+    transform: scale(1.5);
+}
+
